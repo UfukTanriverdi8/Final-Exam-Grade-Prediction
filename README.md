@@ -1,6 +1,7 @@
 # Final Exam Grade Prediction
 
-This project aims to predict the final exam grades of students using various features such as study time, previous grades, and other related attributes. By using linear regression, this project evaluates different feature selection to find the selection with the most accuracy.
+This project aims to predict the final exam grades of students using various features such as study time, previous grades, and other related attributes. By using linear regression, this project evaluates different feature selection to find the selection with the most accuracy.\
+Here you can run the code from [Google Colab](https://colab.research.google.com/drive/1Gog5eESZP0aaeh5ZTrrQZopctg7GQf_-?usp=sharing).
 
 ## Dataset
 
