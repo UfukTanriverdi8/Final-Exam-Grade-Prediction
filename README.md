@@ -42,7 +42,6 @@ The dataset used in this project is sourced from the [UCI Machine Learning Repos
 31. `G2` - second period grade (numeric: from 0 to 20)
 32. `G3` - final grade (numeric: from 0 to 20, output target)
 
-
 ## Files
 
 - `student-mat.csv`: The file that contains the math grades. This is what we're going to use.
@@ -52,4 +51,6 @@ The dataset used in this project is sourced from the [UCI Machine Learning Repos
 
 ## Results
 - The project evaluates each model's performance using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R2 score metrics. Most of the evaluation is made by looking at mean cross valdiaton R2 scores.
-- The final grade mostly just depends on the past two exams.
+- The final grade mostly just depends on the past two exams. No features other than these two exams correlates with the final grade enough to be used in the training and get a reasonable accuracy.
+- If we try to increase the accuracy by adding other features than past two exam scores, we just make the accuracy worse. So the model literally does not accept any feature other than first two exam scores(G1 and G2).
+- This dataset is a great introduction to linear regression. We have one target variable and we can use two features to get a pretty good accuracy. This means that we can easily visualize the data points and our prediction surface to see what is going on.
